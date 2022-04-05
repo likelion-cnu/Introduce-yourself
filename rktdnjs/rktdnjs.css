@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap");
+
+* {
+  font-family: "Montserrat";
+}
+
+body, /*균일하게 초기화*/
+h1,
+h2 {
+  margin: 0px;
+  padding: 0px;
+} 
+
+body {
+  min-width: fit-content;
+}
+
+.title-box {  /*상단 파트 배치*/
+  text-align: right;
+}
+
+h1 { /*Contents 맨 상단 제목*/
+  font-size: 36px;
+  font-weight: bold;
+} 
+
+.name-text { /*맨 상단 부제*/
+  font-size: 18px;
+  color: #7c7c7c;
+  font-weight: bold;
+  font-style: italic;
+} 
+
+h2 { /*각 항목 카테고리*/
+  font-size: 22px;
+  color: #282828;
+  /*font-weight: lighter;*/
+  margin-bottom: 10px;
+  border-bottom: 3px solid #ebebeb;
+  padding-bottom: 5px;
+} 
+
+.about-me-text { /*About me contents*/
+  font-size: 12px;
+  line-height:22px;
+}
+
+.mainbox { /*외곽 박스*/
+  width: 610px;
+  padding: 30px;
+  margin: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 12px ridge #91ffd5;
+  box-shadow: 10px 1px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+section { /*카테고리별 사이 공백*/
+  margin-bottom: 40px; 
+}
+
+.float-wrap { /*카테고리 속 내용 flow, html에 영향x*/
+  overflow: hidden;
+}
+
+.title-text { /*카테고리 속 내용*/
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 10px;
+  color: #2a2a2a;
+  float: left;
+}
+
+.finish-text { /*마지막 문단*/
+  font-weight: bold;
+  color: #fd94e5;
+  text-align: center;
+  padding: 1px;
+  font-size: 20px;
+}
+
+.box {
+  width: 340px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 6px double #6f6f6f
+}
+
+footer { /*맨 아래*/
+  text-align: center;
+  background-color: #1e1e1e;
+  padding: 20px;
+  font-size: 12px;
+  color: #919191;
+}
+
+/*
+.desc-text {
+  font-size: 90px;
+}
+
+.desc-subtext {
+  font-size: 50px;
+  color: #282828;
+  padding-left: 16px;
+}
+
+.year-text {
+  font-size: 11px;
+  font-weight: bold;
+  color: #282828;
+  float: right;
+}
+*/
+
